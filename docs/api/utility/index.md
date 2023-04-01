@@ -154,4 +154,50 @@ Returns **Date Object**
 | Type     | Description                |
 | :-------- | :------------------------- |
 | `Date Object` | Date time Object for Ruin UI Basetime |
+
+<br />
+
+
+```
+  Utility.ToLocalTime(stamp);
+```
+#### Timestamp to users localtime
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `stamp` | `int` | **Required**. Timestamp in seconds |
+
+ Returns **Date Object**
+ 
+| Type     | Description                |
+| :------- | :------------------------- |
+| `Date Object` | Result of creating a date from input seconds |
+
+<br />
+
+
+```
+  Utility.GetKeybinds();
+```
+#### Get keybinds from the datastorage for the game
+
+Returns **Object**
+
+| Type     | Description                |
+| :-------- | :------------------------- |
+| `Object` | Object contains all the keybinds |
+
+<br />
+
+```
+  Utility.isEmpty(string);
+```
+#### Check if the string is empty
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `string` | `string` | **Required**. String to check |
+
+ Returns **Boolean**
+
 <br />
