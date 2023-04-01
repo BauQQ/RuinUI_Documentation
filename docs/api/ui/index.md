@@ -73,3 +73,14 @@
 #### Safe reload of the window/game
 
 <br />
+
+```
+  UI.Exist(element);
+```
+#### Definitively check if the element/object/variable exist
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `element` | `*` | **Required**. What ever you need to check if exist |
+
+<br />
