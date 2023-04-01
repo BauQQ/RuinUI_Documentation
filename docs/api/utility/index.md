@@ -6,9 +6,11 @@
 #### Ask for the current clock
 
 Returns **Clock string**
+
 | Type     | Description                |
 | :-------- | :------------------------- |
 | `string` | Clock string  `${b}:${c}` |
+
 <br />
 
 
