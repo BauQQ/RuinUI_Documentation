@@ -116,3 +116,15 @@ const buildData = {
     resize:true
 }
 ```
+
+<br />
+
+
+#### InnerHtml, Data Object**
+
+```js
+{
+    html:your_inner_html
+}
+
+```
