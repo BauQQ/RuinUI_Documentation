@@ -21,17 +21,14 @@ Returns **Boolean**
 ```
   Player.Find(name);
 ```
-#### Pull the player from API
+#### Find the player if they exist
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `name` | `string` | **Required**. Player name |
 
- Returns **Player name**
+ Returns **Player name (string)** or **Boolean**
  
-| Type     | Description                |
-| :------- | :------------------------- |
-| `string` | Player name |
 
  <br />
 
@@ -39,7 +36,7 @@ Returns **Boolean**
 ```
   Player.Class(name);
 ```
-#### Pull the player from API
+#### Return the class of the player if they exist
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
@@ -51,3 +48,67 @@ Returns **Boolean**
 | :-------- | :------- | :------------------------- |
 | `key` | `int` | Class key |
 | `type` | `string` | Class name |
+
+<br />
+
+```
+  Player.Level(name);
+```
+#### Return the level of the player if they exist
+
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name` | `string` | **Required**. Player name |
+
+Returns **Player Level (Int)**
+
+
+
+<br />
+
+```
+  Player.Faction(name);
+```
+#### Return the faction of a player if they exist
+
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name` | `string` | **Required**. Player name |
+
+Returns **Faction object**
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `key` | `int` | Faction key |
+| `faction` | `string` | Faction name |
+
+<br />
+
+```
+  Player.Name();
+```
+#### Return the name of the player/character currently on
+
+Returns **Player name (string)**
+
+<br />
+
+
+```
+  Player.IsBlocked(name);
+```
+#### Have you blocked this player
+
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name` | `string` | **Required**. Player name |
+
+Returns **Boolean**
+
+
+
+<br />
+
