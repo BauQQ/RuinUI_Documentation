@@ -204,3 +204,16 @@ Returns **Object**
  Returns **Boolean**
 
 <br />
+
+```
+  Utility.OutputAllElements();
+```
+#### Outputs all elements in Elib to the console
+
+Returns **String**
+
+| Type     | Description                |
+| :-------- | :------------------------- |
+| `String` | Element name |
+
+<br />
