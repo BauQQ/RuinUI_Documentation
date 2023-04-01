@@ -14,6 +14,19 @@ Returns **Boolean**
 
 <br />
 
+```
+  Modal.Exist(name);
+```
+#### Check if the modal already exist
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name` | `String` | **Required**. Name to check |
+
+Returns **Boolean**
+
+<br />
+
 
 #### Elements
 
