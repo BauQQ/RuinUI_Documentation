@@ -13,19 +13,29 @@ Returns **Clock string**
 
 
 ```
-  Player.Class(name);
+  Utility.Copy(data);
 ```
-#### Return the class of the player if they exist
+#### Send a string to the clipboard
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `name` | `string` | **Required**. Player name |
+| `data` | `string` | **Required**. String you want to send to clipboard |
 
- Returns **Class object**
+<br />
+
+```
+  Utility.Ucfirst(word);
+```
+#### Make the first letter in a string Capitalized
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `word` | `string` | **Required**. String to modify|
+
+ Returns **String**
  
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `key` | `int` | Class key |
-| `type` | `string` | Class name |
+| Type     | Description                |
+| :------- | :------------------------- |
+| `String` | Result of string modification |
 
 <br />
