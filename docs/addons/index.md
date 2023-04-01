@@ -8,4 +8,4 @@ This docummentation should help you in your quest to access the full potential o
 
 ## API Reference
 
-[API List](https://bauqq.github.io/ruinui-v2/api/)
+[API List](https://bauqq.github.io/RuinUI_Documentation/api/)

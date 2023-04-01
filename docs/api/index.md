@@ -1,3 +1,3 @@
 ## Full API List
 
-[Player](https://bauqq.github.io/ruinui-v2/api/player)
+[Player](https://bauqq.github.io/RuinUI_Documentation/api/player)
