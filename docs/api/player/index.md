@@ -27,9 +27,12 @@ Returns **Boolean**
 | :-------- | :------- | :------------------------- |
 | `name` | `string` | **Required**. Player name |
 
- Returns **Player object**
+ Returns **Player name**
  
- 
+| Type     | Description                |
+| :------- | :------------------------- |
+| `string` | Player name |
+
  <br />
 
 
