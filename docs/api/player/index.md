@@ -107,8 +107,3 @@ Returns **Player name (string)**
 | `name` | `string` | **Required**. Player name |
 
 Returns **Boolean**
-
-
-
-<br />
-
