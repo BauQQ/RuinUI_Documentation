@@ -16,7 +16,8 @@ Returns **Boolean**
 
 
 #### Elements
-| Parameter | Type     |
+
+| Parameter | Type |
 | :------------------------- | :------- |
 | `settingMenuButton` | `string` | 
 | `tickbox` | `string` | 
