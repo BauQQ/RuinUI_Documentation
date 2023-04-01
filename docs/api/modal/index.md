@@ -85,3 +85,33 @@ Returns **Boolean**
 
 
 #### Data, Data Object*
+
+
+```js
+const buildData = {
+    name : "Party Signups",
+    element : "mainMenuButton",
+    id : "syspartysign",
+    cls : "r2_syspartysign",
+    nx: "party_signup",
+    base : "windowPanel",
+    close: Classes.closefeature,
+    internal : "innerPartySignup",
+    btn : "U",
+    settings : {
+        key : "partysignupkey",
+        hotkey : "u",
+        description: "Party Signup hotkey"
+    },
+    position : {
+        top: 150,
+        left: 150
+    },
+    modable : true,
+    size:{
+        width:0,
+        height:0
+    },
+    resize:true
+}
+```
