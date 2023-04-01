@@ -153,6 +153,7 @@ Returns **Clock string**
 #### Get Ruin UI Base time
 
 Returns **Date Object**
+
 | Type     | Description                |
 | :-------- | :------------------------- |
 | `Date Object` | Date time Object for Ruin UI Basetime |
