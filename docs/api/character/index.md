@@ -26,10 +26,10 @@ Returns **Character id**
 
 Returns **Object**
 
-| Name     || Type     | Description                |
-| :-------- || :-------- | :------------------------- |
-| `key` || `int` | class id |
-| `type` || `string` | Class name |
+| Name     | Type     | Description                |
+| :-------- | :-------- | :------------------------- |
+| `key` | `int` | class id |
+| `type` | `string` | Class name |
 
 <br />
 
