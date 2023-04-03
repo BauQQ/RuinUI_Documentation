@@ -95,7 +95,7 @@
 | `parent` | `htmlObject/string` | **Required**. The parent element or identifier of element: `.class` / `#id` |
 | `trigger` | `string` | **Required**. What that triggers the delegation* |
 | `on` | `htmlObject/string` | **Required**. The target element or identifier of element: `.class` / `#id` |
-| `action` | `string/function` | **Required**. Function or name of pre-registered function |
+| `action` | `string/function` | **Required**. Function or key of pre-registered function |
 | `data` | `*` | **Default NULL** can be anything for passthrough to function|
 
 <br />
