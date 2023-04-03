@@ -1,4 +1,4 @@
-## Full API List v2.1.4
+## Full API List v2.1.5
 
 [Player](https://bauqq.github.io/RuinUI_Documentation/api/player)
 
