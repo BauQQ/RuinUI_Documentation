@@ -95,6 +95,7 @@ Returns **Boolean**
 | `topLeftElem` | `string` | 
 | `customcssInput` | `string` | 
 | `customjsInput` | `string` | 
+| `emptyWindow` | `string` | 
 
 <br />
 

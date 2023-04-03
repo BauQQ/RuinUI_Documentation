@@ -11,3 +11,5 @@
 [Settings](https://bauqq.github.io/RuinUI_Documentation/api/settings)
 
 [Modal](https://bauqq.github.io/RuinUI_Documentation/api/modal)
+
+[Css Classes](https://bauqq.github.io/RuinUI_Documentation/api/css-classes)
