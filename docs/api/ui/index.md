@@ -84,3 +84,18 @@
 | `element` | `*` | **Required**. What ever you need to check if exist |
 
 <br />
+
+```
+  UI.Delegate(parent, trigger, on, action, data = null);
+```
+#### Setup delegation
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `parent` | `htmlObject/string` | **Required**. The parent element or identifier of element: `.class` / `#id` |
+| `trigger` | `string` | **Required**. What that triggers the delegation* |
+| `on` | `htmlObject/string` | **Required**. The target element or identifier of element: `.class` / `#id` |
+| `action` | `string/function` | **Required**. Function or name of pre-registered function |
+| `data` | `*` | **Default NULL** can be anything for passthrough to function|
+
+<br />

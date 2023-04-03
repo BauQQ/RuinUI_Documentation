@@ -1,7 +1,7 @@
 ## Modal Api Reference
 
 ```
-  Modal.Create(data, innerHtml);
+  Modal.Create(data, innerHtml, mainMenu);
 ```
 #### Create and append a new modal-window to the game
 
@@ -9,6 +9,7 @@
 | :-------- | :------- | :------------------------- |
 | `data` | `Object` | **Required**. Data object, see example below* |
 | `innerHtml` | `Object` | **Required**. Data object, see example below** |
+| `mainMenu` | `Object` | **Default false**. Set to true if your modal needs a mainMenu element |
 
 Returns **Boolean**
 
