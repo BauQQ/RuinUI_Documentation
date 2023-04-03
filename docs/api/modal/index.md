@@ -142,3 +142,48 @@ const buildData = {
 }
 
 ```
+
+
+<br />
+
+#### Modal Example
+
+```js
+ const buildData = {
+    name : "Test",
+    element : "mainMenuButton",
+    id : "systest",
+    cls : "r2_test",
+    nx: "test_signup",
+    base : "windowPanel",
+    close: Classes.closefeature,
+    internal : "emptyWindow",
+    btn : "T",
+    settings : {
+        key : "partysignupkey",
+        hotkey : "t",
+        description: "Party Signup hotkey"
+    },
+    position : {
+        top: 150,
+        left: 150
+    },
+    modable : true,
+    size:{
+        width:0,
+        height:0
+    },
+    resize:true
+}
+
+let innerHtml = '<div class="btn r2_test_button">Click Me</div> ';
+
+(async() => {  
+    if(await Modal.Create(buildData , {html:innerHtml},  false)){
+        UI.Delegate(`#${buildData.cls}`, "click", '.r2_test_button', function(){
+            console.log(test);
+        });
+    }
+})();
+
+```

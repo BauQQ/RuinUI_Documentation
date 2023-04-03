@@ -99,3 +99,16 @@
 | `data` | `*` | **Default NULL** can be anything for passthrough to function|
 
 <br />
+
+#### Button Delegation example
+
+```js
+UI.Delegate(parentIdentifier, "click", buttonIndentifier, function(){
+    if($(`WindowIdentifier`).is(":visible")){
+        $(`WindowIdentifier`).hide();
+    }else{
+        $(`WindowIdentifier`).show();
+    }
+});
+
+```
