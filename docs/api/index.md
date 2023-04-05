@@ -1,4 +1,4 @@
-## Full API List v2.1.5
+## Full API List v2.1.6
 
 [Player](https://bauqq.github.io/RuinUI_Documentation/api/player)
 
@@ -13,3 +13,5 @@
 [Modal](https://bauqq.github.io/RuinUI_Documentation/api/modal)
 
 [Css Classes](https://bauqq.github.io/RuinUI_Documentation/api/css-classes)
+
+[Inject](https://bauqq.github.io/RuinUI_Documentation/api/inject)
