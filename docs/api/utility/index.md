@@ -217,3 +217,39 @@ Returns **String**
 | `String` | Element name |
 
 <br />
+
+```
+  Utility.findIndexGreaterThan(args, value);
+```
+#### Find the index of first value greater than int
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `args` | `array` | **Required**. Array to look through |
+| `value` | `int` | **Required**. Value to compared to |
+
+ Returns **Float**
+ 
+| Type     | Description                |
+| :------- | :------------------------- |
+| `Float` | Returns either index or -1 |
+
+<br />
+
+
+```
+  Utility.numberWithCommas(number);
+```
+#### Format a number
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `number` | `int` | **Required**. Number to modify |
+
+ Returns **string**
+ 
+| Type     | Description                |
+| :------- | :------------------------- |
+| `string` | Return number as string with comma seperations |
+
+<br />

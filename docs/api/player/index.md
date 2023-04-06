@@ -40,7 +40,7 @@ Returns **Boolean**
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `name` | `string` | **Required**. Player name |
+| `name` | `string` | Player name - can be null |
 
  Returns **Class object**
  
@@ -59,7 +59,7 @@ Returns **Boolean**
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `name` | `string` | **Required**. Player name |
+| `name` | `string` | Player name - can be null |
 
 Returns **Player Level (Int)**
 
@@ -75,7 +75,7 @@ Returns **Player Level (Int)**
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `name` | `string` | **Required**. Player name |
+| `name` | `string` | Player name - can be null |
 
 Returns **Faction object**
 

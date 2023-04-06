@@ -13,6 +13,18 @@
 <br />
 
 ```
+  UI.AppendAfter(element, html);
+```
+#### Append some html after a specific element
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `element` | `elementObject` | **Required**. The element to append html to |
+| `html` | `string/htmlObject` | **Required**. The html you wan to append |
+
+<br />
+
+```
   UI.Remove(element);
 ```
 #### Remove a specific element
