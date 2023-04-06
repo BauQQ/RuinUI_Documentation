@@ -91,3 +91,5 @@
 | `GCounterClass` | `string` | `svelte-goldcounter` |  
 | `GCounterMenuClass` | `string` | `svelte-MenuGCount` |  
 | `AngryAssignementControlWindow` | `string` | `svelte-aacwindow` |  
+| `pvpSlot` | `string` | `.slot.svelte-yjs4p5` | 
+| `panel_black` | `string` | `panel-black` | 
